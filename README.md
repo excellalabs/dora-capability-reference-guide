@@ -349,6 +349,8 @@ When implementing a generative culture, you should focus on:
 * Cross-functionality is encouraged and rewarded
 * New ideas are welcomed
 
+[Link](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
+
 ### Well-being
 
 A reflection of people's happiness and job satisfaction. There are two areas that DORA has focused on to describe how development practices impact people's well-being.
