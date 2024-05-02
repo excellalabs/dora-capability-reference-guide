@@ -8,7 +8,9 @@ The DevOps Research and Assessment (DORA) is a long-running, academically rigoro
 
 This guide is a snapshot of what's available in the [DORA Capabilities](https://dora.dev/devops-capabilities/) and is meant to serve as a starting point. Some of the information below is a direct copy from the site, and some is a condensed version. Each capability page on the DORA site also provides additional context and supporting links.
 
-As you about adopting a DORA capability read the associated documentation on the DORA site. This will help you understand how it fits in with the scope of DORA and its impact on the four key metrics.
+**NOTE: This guide only contains the the core competencies. The non-core competencies are generally components of a core competency, but they may be added to this gude at a later date.**
+
+As you adopt a DORA capability read the associated documentation on the DORA site. This will help you understand how it fits in with the scope of DORA and its impact on the four key metrics.
 
 Good luck, and have fun!
 
