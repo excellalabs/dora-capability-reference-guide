@@ -8,9 +8,7 @@ The DevOps Research and Assessment (DORA) is a long-running, academically rigoro
 
 This guide is a snapshot of what's available in the [DORA Capabilities](https://dora.dev/devops-capabilities/) and is meant to serve as a starting point. Some of the information below is a direct copy from the site, and some is a condensed version. Each capability page on the DORA site also provides additional context and supporting links.
 
-**NOTE: This guide only contains the the core competencies. The non-core competencies are generally components of a core competency, but they may be added to this gude at a later date.**
-
-As you adopt a DORA capability read the associated documentation on the DORA site. This will help you understand how it fits in with the scope of DORA and its impact on the four key metrics.
+**NOTE: This guide only contains the the core competencies. The non-core competencies are in progress!**
 
 Good luck, and have fun!
 
@@ -375,6 +373,32 @@ People who suffer from constantly reacting might experience burnout. Burnout can
 Most organizations try to fix the person rather than addressing issues with the organization which is much less successful.
 
 [Link](https://dora.dev/devops-capabilities/cultural/well-being/)
+
+## DORA Other Competencies
+
+### Customer Feedback
+
+### Monitoring Systems To Inform Business Decisions
+
+### Proactive Failure Notification
+
+### Team Experimentation
+
+### Visibility Of Work In The Value Stream
+
+### Visual Management
+
+### Work In Process Limits
+
+### Working In Small Batches
+
+### Job Satisfaction
+
+### Learning Culture
+
+### Transformational Leadership
+
+### Well-being
 
 ## DORA Key Metrics
 
