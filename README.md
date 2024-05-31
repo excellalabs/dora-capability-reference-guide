@@ -1,4 +1,4 @@
-# DORA Quick Guide
+# DORA Capability Reference Guide
 
 The DevOps Research and Assessment (DORA) is a long-running, academically rigorous research investigation. Using behavioral science, the researchers connect software delivery methods to organizational goals and personal well-being. Dora is a compilation of competencies that they have proven to drive organizational performance and well-being.
 
