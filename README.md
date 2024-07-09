@@ -378,6 +378,21 @@ Most organizations try to fix the person rather than addressing issues with the 
 
 ### Customer Feedback
 
+Validating your features is critical to team success and well-being. Customer feedback is part of a wider group of capabilities comprise of visibility of work in the value stream, small batch work, and team experimentation. When these capabilities are applied together they help prediec software delivery performance and organizational performance. Teams should actively seek customer feedback and use it to drive their features.
+
+It's important to derive success metrics for your product based on how your customers interact with it. The metrics should be suitable to the product you're building and be a key driver of the product strategy. It doesn't matter if your product is client-facing or for internal teams, the same philosophy applie. Early and frequent engagement with the people who use your product is paramount to ensure successful software delivery. Otherwise you might be building tools or features that nobody uses which can cause burnout and wasted resources. Increased customer engagement also helps align the team to organizational goals and values.
+
+One big issue with not gathering customer feedback is not understanding the problem customers are facing. Teams might even ignore inconvenient feedback and label it as scope creep. A team wants to keep the scope of their work to the mimnum that's required to solve the problem, but not understanding the problem can lead to a failed product. Teams need to be able to act on the feedback and be able to iterate or pivot when their plans don't align with customer needs.
+
+User Experience (UX) designers are extremely helpful in gathering feedback and ensuring the team is solving real customer problems. UX is about every experience a user has when they interact with the product and can help teams align their plans with real cusomter needs rather than assumed ones.
+
+#### Ways To Improve Customer Feedback
+
+- Define metrics that measure customer satisfaction
+- Validate features before building them with user research and prototypes
+- Changes to features should be drive by your customers
+- Activey gather and act on customer feedback
+
 ### Monitoring Systems To Inform Business Decisions
 
 ### Proactive Failure Notification
