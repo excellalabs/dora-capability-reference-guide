@@ -432,6 +432,12 @@ The practice of generating notifications from thresholds rather than after a pro
 
 ### Job Satisfaction
 
+Job satisfaction is a predictor of organization performance. Engaged employees drive business value. People do better work when they feel supported by their employers, when they have the tools and resources to perform their jobs, and when they feel their judgement is valued. Dedication to continuous improvement if what sets apart successful companies, and helps with satisfcation. If you're trying to make ogranizational change, don't forget you must make time and resoucres available for the improvements. Transformations are hard and take time, and make things difficult for employees to navigate. Teams that routinely work on making these changes and improving processes are more likely to stay with the company. 
+
+Measuring job satisfaction is hard. The best way is to get people's opinions, but if you're worried that you won't receive accurate answers then that's a signal that something is wrong and should be investigated.
+
+[Link](https://dora.dev/capabilities/job-satisfaction/)
+
 ### Learning Culture
 
 ### Transformational Leadership
