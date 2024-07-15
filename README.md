@@ -295,6 +295,7 @@ A pattern that can be adopted to help improve migrating architecture is the stra
 By integrating security into daily work, and as early as possible, teams can build more secure systems and take a less reactionary stance to security issues. Defects involving security, performance, and availability are the most resource-consuming issues and require hard-to-implement changes. By implementing security as early as possible, high-performing teams can mitigate these kinds of issues. Teams also eliminate the need for post-inspection which helps with continuous delivery. Whoever is in charge of your security needs to be included in the design phase of building software. This is the best way to catch issues early on and ensure that your application has sufficient automated testing. By automating critical tests, you also reduce the manual aspect of security inspection. It's important to have an understanding of common security vulnerabilities, understand the principle of least privilege, and engage with your security team.
 
 #### Ways To Measure Shifting Left On Security
+
 1. The percentage of features that undergo security review early in the development process.
 1. The time a security review took and added to the development process.
 1. The involvement of InfoSec in the development lifecycle (design, development, test, and release).
@@ -394,6 +395,15 @@ User Experience (UX) designers are extremely helpful in gathering feedback and e
 - Activey gather and act on customer feedback
 
 ### Monitoring Systems To Inform Business Decisions
+
+When properly implemented, monitoring gives you insights into your systems and gives you rapid feedback for early problem detection. These help you communicate information about your systems to other parts of the business. By sharing knowledge and identifing learnings, you can share these across your organizations to improve systems. Collection data from key areas like performance and infrastructure, and using those to make business decisions are paramount to this capability. The data being shared across the business should be relevant, timely, accurate, and easy to understand. Providing context to your data is also critical to help stakeholders understand the data being shared. Make use of the Monitoring and Observability capability to help drive useful and actionable alerts that give you insight into your systems. 
+
+#### Ways To Improve Monitoring Systems To Inform Business Decisions
+
+- Collect data from key areas throughout the value chain. Do a gap analysis on gathered data to help ensure the data is right for your organization.
+- Ensure the data is available, shared, and used to guide decisions.
+
+[Link](https://dora.dev/capabilities/monitoring-systems/)
 
 ### Proactive Failure Notification
 
