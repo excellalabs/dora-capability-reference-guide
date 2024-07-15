@@ -394,6 +394,8 @@ User Experience (UX) designers are extremely helpful in gathering feedback and e
 - Changes to features should be drive by your customers
 - Activey gather and act on customer feedback
 
+[Link](https://dora.dev/capabilities/customer-feedback/)
+
 ### Monitoring Systems To Inform Business Decisions
 
 When properly implemented, monitoring gives you insights into your systems and gives you rapid feedback for early problem detection. These help you communicate information about your systems to other parts of the business. By sharing knowledge and identifing learnings, you can share these across your organizations to improve systems. Collection data from key areas like performance and infrastructure, and using those to make business decisions are paramount to this capability. The data being shared across the business should be relevant, timely, accurate, and easy to understand. Providing context to your data is also critical to help stakeholders understand the data being shared. Make use of the Monitoring and Observability capability to help drive useful and actionable alerts that give you insight into your systems. 
@@ -406,6 +408,17 @@ When properly implemented, monitoring gives you insights into your systems and g
 [Link](https://dora.dev/capabilities/monitoring-systems/)
 
 ### Proactive Failure Notification
+
+The practice of generating notifications from thresholds rather than after a problem has occurred in a given system. With this approach, it's possible to identify and resolve issues before they impact your end users. According to DORA, teams that have proactive notifications can diagnose and solve problems quickly. Notifications should be generated using specific alerting rules based on thresholds. Thresholds for these rules should be predictive and not based on arbitrary values. If you have have known values that cause user impact, your thresholds should start alarming once you're within 20% of that threshold. Incident post-mortems can also help you determine these metrics and thresholds. Once you have a plan in place, actively review and adjust your notification strategy to avoid unactionable notifications.
+
+#### Ways To Improve Failure Notification
+
+- Configuring alerts in logging and monitoring systems to appropriate levels.
+- Configuring alerts to make sure they notify people and teams who can actually fix the problem.
+- Proactively monitoring system health based on rate of change warnings.
+- Ensure that only relevant alerts are occurring.
+
+[Link](https://dora.dev/capabilities/proactive-failure-notification/)
 
 ### Team Experimentation
 
