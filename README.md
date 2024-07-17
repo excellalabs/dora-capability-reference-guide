@@ -38,7 +38,7 @@ These are key components of continuous delivery:
 * Deployment Automation
 * Trunk-based Development
 * Shifting Left On Security
-* Loosely Couple Architecture
+* Loosely Coupled Teams
 * Empowering Teams To Choose Tools
 * Continuous Integration
 * Continuous Testing
@@ -261,7 +261,7 @@ Internal documentation has a clear link to organizational performance. DORA has 
 
 [Link](https://dora.dev/devops-capabilities/process/documentation-quality/)
 
-### Loosely Coupled Architecture
+### Loosely Coupled Teams
 
 Architecture is a predictor for achieving continuous delivery. Architectural practices that drive successful outcomes:
 
@@ -288,9 +288,9 @@ A pattern that can be adopted to help improve migrating architecture is the stra
 1. As services and products become decoupled, deployment frequency should increase. This should be measured on the cadence of deployment rather than deployment count.
 1. Measure the time it takes to detect and recover from problems and the time it takes for those problems to be resolved in a production environment.
 
-[Link](https://dora.dev/devops-capabilities/process/loosely-coupled-architecture/)
+[Link](https://dora.dev/capabilities/loosely-coupled-teams/)
 
-### Shifting Left On Security
+### Pervasive Security
 
 By integrating security into daily work, and as early as possible, teams can build more secure systems and take a less reactionary stance to security issues. Defects involving security, performance, and availability are the most resource-consuming issues and require hard-to-implement changes. By implementing security as early as possible, high-performing teams can mitigate these kinds of issues. Teams also eliminate the need for post-inspection which helps with continuous delivery. Whoever is in charge of your security needs to be included in the design phase of building software. This is the best way to catch issues early on and ensure that your application has sufficient automated testing. By automating critical tests, you also reduce the manual aspect of security inspection. It's important to have an understanding of common security vulnerabilities, understand the principle of least privilege, and engage with your security team.
 
@@ -301,7 +301,7 @@ By integrating security into daily work, and as early as possible, teams can bui
 1. The involvement of InfoSec in writing automated tests. Automated tests should sufficiently cover security concerns.
 1. The involvement of InfoSec and the use of preapproved libraries and packages. Teams should strive to use 100% preapproved by InfoSec tools.
 
-[Link](https://dora.dev/devops-capabilities/process/shifting-left-on-security/)
+[Link](https://dora.dev/capabilities/pervasive-security/)
 
 ### Streamlining Change Approval
 
