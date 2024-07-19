@@ -295,6 +295,7 @@ A pattern that can be adopted to help improve migrating architecture is the stra
 By integrating security into daily work, and as early as possible, teams can build more secure systems and take a less reactionary stance to security issues. Defects involving security, performance, and availability are the most resource-consuming issues and require hard-to-implement changes. By implementing security as early as possible, high-performing teams can mitigate these kinds of issues. Teams also eliminate the need for post-inspection which helps with continuous delivery. Whoever is in charge of your security needs to be included in the design phase of building software. This is the best way to catch issues early on and ensure that your application has sufficient automated testing. By automating critical tests, you also reduce the manual aspect of security inspection. It's important to have an understanding of common security vulnerabilities, understand the principle of least privilege, and engage with your security team.
 
 #### Ways To Measure Shifting Left On Security
+
 1. The percentage of features that undergo security review early in the development process.
 1. The time a security review took and added to the development process.
 1. The involvement of InfoSec in the development lifecycle (design, development, test, and release).
@@ -378,13 +379,62 @@ Most organizations try to fix the person rather than addressing issues with the 
 
 ### Customer Feedback
 
+Validating your features is critical to team success and well-being. Customer feedback is part of a wider group of capabilities comprise of visibility of work in the value stream, small batch work, and team experimentation. When these capabilities are applied together they help prediec software delivery performance and organizational performance. Teams should actively seek customer feedback and use it to drive their features.
+
+It's important to derive success metrics for your product based on how your customers interact with it. The metrics should be suitable to the product you're building and be a key driver of the product strategy. It doesn't matter if your product is client-facing or for internal teams, the same philosophy applie. Early and frequent engagement with the people who use your product is paramount to ensure successful software delivery. Otherwise you might be building tools or features that nobody uses which can cause burnout and wasted resources. Increased customer engagement also helps align the team to organizational goals and values.
+
+One big issue with not gathering customer feedback is not understanding the problem customers are facing. Teams might even ignore inconvenient feedback and label it as scope creep. A team wants to keep the scope of their work to the mimnum that's required to solve the problem, but not understanding the problem can lead to a failed product. Teams need to be able to act on the feedback and be able to iterate or pivot when their plans don't align with customer needs.
+
+User Experience (UX) designers are extremely helpful in gathering feedback and ensuring the team is solving real customer problems. UX is about every experience a user has when they interact with the product and can help teams align their plans with real cusomter needs rather than assumed ones.
+
+#### Ways To Improve Customer Feedback
+
+- Define metrics that measure customer satisfaction
+- Validate features before building them with user research and prototypes
+- Changes to features should be drive by your customers
+- Activey gather and act on customer feedback
+
+[Link](https://dora.dev/capabilities/customer-feedback/)
+
 ### Monitoring Systems To Inform Business Decisions
 
+When properly implemented, monitoring gives you insights into your systems and gives you rapid feedback for early problem detection. These help you communicate information about your systems to other parts of the business. By sharing knowledge and identifing learnings, you can share these across your organizations to improve systems. Collection data from key areas like performance and infrastructure, and using those to make business decisions are paramount to this capability. The data being shared across the business should be relevant, timely, accurate, and easy to understand. Providing context to your data is also critical to help stakeholders understand the data being shared. Make use of the Monitoring and Observability capability to help drive useful and actionable alerts that give you insight into your systems. 
+
+#### Ways To Improve Monitoring Systems To Inform Business Decisions
+
+- Collect data from key areas throughout the value chain. Do a gap analysis on gathered data to help ensure the data is right for your organization.
+- Ensure the data is available, shared, and used to guide decisions.
+
+[Link](https://dora.dev/capabilities/monitoring-systems/)
+
 ### Proactive Failure Notification
+
+The practice of generating notifications from thresholds rather than after a problem has occurred in a given system. With this approach, it's possible to identify and resolve issues before they impact your end users. According to DORA, teams that have proactive notifications can diagnose and solve problems quickly. Notifications should be generated using specific alerting rules based on thresholds. Thresholds for these rules should be predictive and not based on arbitrary values. If you have have known values that cause user impact, your thresholds should start alarming once you're within 20% of that threshold. Incident post-mortems can also help you determine these metrics and thresholds. Once you have a plan in place, actively review and adjust your notification strategy to avoid unactionable notifications.
+
+#### Ways To Improve Failure Notification
+
+- Configuring alerts in logging and monitoring systems to appropriate levels.
+- Configuring alerts to make sure they notify people and teams who can actually fix the problem.
+- Proactively monitoring system health based on rate of change warnings.
+- Ensure that only relevant alerts are occurring.
+
+[Link](https://dora.dev/capabilities/proactive-failure-notification/)
 
 ### Team Experimentation
 
 ### Visibility Of Work In The Value Stream
+
+This represents the extent to which teams have a good understand of how their work flow from business requirements all the way to customers. Teams that are proficient at value visibiity are able to easily see the visual flow of their work through the flow, and information about the flow is readily made readily available. A useful technique to develop this is value stream mapping. Gather stakeholders from every part of the product development lifecycle and create a diagram of process blogs. Record in each process block the team that manages that process, the steps they use to accomplish that process, the time it takes to complete the process, and the percentage of items that hit a stage without requiring rework. Looks for prcoesses that block or produce low quality work, or processes that have a long lead time for completion. Work with stakeholder to identify what a future value stream might look like as well. Teams should be evaluating the current state and future state every six months to a year.
+
+When putting together a value stream, remember that not one single person or team has great insight into the whole value stream. It's paramount to include people across the entire stream for feedback. This will also help you map the entire stream without missing any steps. Failure to map a certain step can lead to local optimazation but missed opportunities to improve the whole process. Focus on areas that are actual bottlenecks for immprovement first, even if all the steps can be improved. The people inovled with the value mapping should also have the power to institute changes to help eliminate bottlenecks.
+
+#### Ways To Improve Work Visibility
+
+- Provide tools for visualizing and recording workflow.
+- Create a value stream map.
+- Share artifacts or otherwise make them widely available.
+
+[Link](https://dora.dev/capabilities/work-visibility-in-value-stream/)
 
 ### Visual Management
 
@@ -394,11 +444,15 @@ Most organizations try to fix the person rather than addressing issues with the 
 
 ### Job Satisfaction
 
+Job satisfaction is a predictor of organization performance. Engaged employees drive business value. People do better work when they feel supported by their employers, when they have the tools and resources to perform their jobs, and when they feel their judgement is valued. Dedication to continuous improvement if what sets apart successful companies, and helps with satisfcation. If you're trying to make ogranizational change, don't forget you must make time and resoucres available for the improvements. Transformations are hard and take time, and make things difficult for employees to navigate. Teams that routinely work on making these changes and improving processes are more likely to stay with the company. 
+
+Measuring job satisfaction is hard. The best way is to get people's opinions, but if you're worried that you won't receive accurate answers then that's a signal that something is wrong and should be investigated.
+
+[Link](https://dora.dev/capabilities/job-satisfaction/)
+
 ### Learning Culture
 
 ### Transformational Leadership
-
-### Well-being
 
 ## DORA Key Metrics
 
