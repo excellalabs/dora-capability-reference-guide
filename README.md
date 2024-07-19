@@ -438,6 +438,15 @@ When putting together a value stream, remember that not one single person or tea
 
 ### Visual Management
 
+Visual management board can create a share understanding of where the team is, and can help identify and remove obstacles. This can be cards, storyboards, Kanban boards, dashboards, or even pipeline monitors. The goal is to be able to visual the status of systems and work. Visual management works well with work in progress limits and can contribute to high levels of deliveyr performance. It's important to involve the team with metric selection and definiton if you're creating boards that display metrics. Displays should be simple and provide information that is actionable. As time goes on, the displays should evolve to address issues the team is facing in the present, and teams should be empowered to fix underlying issues, not just sympotoms.
+
+#### Ways To Improve Visual Management
+
+- Reflect information that the team cares about and will acton.
+- Make data easy to understand.
+- Give the team information that is relevant to their work.
+- Displays are updated as part of daily work.
+
 ### Work In Process Limits
 
 ### Working In Small Batches
