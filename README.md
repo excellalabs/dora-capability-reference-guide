@@ -424,6 +424,18 @@ The practice of generating notifications from thresholds rather than after a pro
 
 ### Visibility Of Work In The Value Stream
 
+This represents the extent to which teams have a good understand of how their work flow from business requirements all the way to customers. Teams that are proficient at value visibiity are able to easily see the visual flow of their work through the flow, and information about the flow is readily made readily available. A useful technique to develop this is value stream mapping. Gather stakeholders from every part of the product development lifecycle and create a diagram of process blogs. Record in each process block the team that manages that process, the steps they use to accomplish that process, the time it takes to complete the process, and the percentage of items that hit a stage without requiring rework. Looks for prcoesses that block or produce low quality work, or processes that have a long lead time for completion. Work with stakeholder to identify what a future value stream might look like as well. Teams should be evaluating the current state and future state every six months to a year.
+
+When putting together a value stream, remember that not one single person or team has great insight into the whole value stream. It's paramount to include people across the entire stream for feedback. This will also help you map the entire stream without missing any steps. Failure to map a certain step can lead to local optimazation but missed opportunities to improve the whole process. Focus on areas that are actual bottlenecks for immprovement first, even if all the steps can be improved. The people inovled with the value mapping should also have the power to institute changes to help eliminate bottlenecks.
+
+#### Ways To Improve Work Visibility
+
+- Provide tools for visualizing and recording workflow.
+- Create a value stream map.
+- Share artifacts or otherwise make them widely available.
+
+[Link](https://dora.dev/capabilities/work-visibility-in-value-stream/)
+
 ### Visual Management
 
 ### Work In Process Limits
@@ -441,8 +453,6 @@ Measuring job satisfaction is hard. The best way is to get people's opinions, bu
 ### Learning Culture
 
 ### Transformational Leadership
-
-### Well-being
 
 ## DORA Key Metrics
 
