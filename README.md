@@ -295,6 +295,7 @@ A pattern that can be adopted to help improve migrating architecture is the stra
 By integrating security into daily work, and as early as possible, teams can build more secure systems and take a less reactionary stance to security issues. Defects involving security, performance, and availability are the most resource-consuming issues and require hard-to-implement changes. By implementing security as early as possible, high-performing teams can mitigate these kinds of issues. Teams also eliminate the need for post-inspection which helps with continuous delivery. Whoever is in charge of your security needs to be included in the design phase of building software. This is the best way to catch issues early on and ensure that your application has sufficient automated testing. By automating critical tests, you also reduce the manual aspect of security inspection. It's important to have an understanding of common security vulnerabilities, understand the principle of least privilege, and engage with your security team.
 
 #### Ways To Measure Shifting Left On Security
+
 1. The percentage of features that undergo security review early in the development process.
 1. The time a security review took and added to the development process.
 1. The involvement of InfoSec in the development lifecycle (design, development, test, and release).
@@ -378,27 +379,127 @@ Most organizations try to fix the person rather than addressing issues with the 
 
 ### Customer Feedback
 
+Validating your features is critical to team success and well-being. Customer feedback is part of a wider group of capabilities comprise of visibility of work in the value stream, small batch work, and team experimentation. When these capabilities are applied together they help prediec software delivery performance and organizational performance. Teams should actively seek customer feedback and use it to drive their features.
+
+It's important to derive success metrics for your product based on how your customers interact with it. The metrics should be suitable to the product you're building and be a key driver of the product strategy. It doesn't matter if your product is client-facing or for internal teams, the same philosophy applie. Early and frequent engagement with the people who use your product is paramount to ensure successful software delivery. Otherwise you might be building tools or features that nobody uses which can cause burnout and wasted resources. Increased customer engagement also helps align the team to organizational goals and values.
+
+One big issue with not gathering customer feedback is not understanding the problem customers are facing. Teams might even ignore inconvenient feedback and label it as scope creep. A team wants to keep the scope of their work to the mimnum that's required to solve the problem, but not understanding the problem can lead to a failed product. Teams need to be able to act on the feedback and be able to iterate or pivot when their plans don't align with customer needs.
+
+User Experience (UX) designers are extremely helpful in gathering feedback and ensuring the team is solving real customer problems. UX is about every experience a user has when they interact with the product and can help teams align their plans with real cusomter needs rather than assumed ones.
+
+#### Ways To Improve Customer Feedback
+
+- Define metrics that measure customer satisfaction
+- Validate features before building them with user research and prototypes
+- Changes to features should be drive by your customers
+- Activey gather and act on customer feedback
+
+[Link](https://dora.dev/capabilities/customer-feedback/)
+
 ### Monitoring Systems To Inform Business Decisions
+
+When properly implemented, monitoring gives you insights into your systems and gives you rapid feedback for early problem detection. These help you communicate information about your systems to other parts of the business. By sharing knowledge and identifing learnings, you can share these across your organizations to improve systems. Collection data from key areas like performance and infrastructure, and using those to make business decisions are paramount to this capability. The data being shared across the business should be relevant, timely, accurate, and easy to understand. Providing context to your data is also critical to help stakeholders understand the data being shared. Make use of the Monitoring and Observability capability to help drive useful and actionable alerts that give you insight into your systems. 
+
+#### Ways To Improve Monitoring Systems To Inform Business Decisions
+
+- Collect data from key areas throughout the value chain. Do a gap analysis on gathered data to help ensure the data is right for your organization.
+- Ensure the data is available, shared, and used to guide decisions.
+
+[Link](https://dora.dev/capabilities/monitoring-systems/)
 
 ### Proactive Failure Notification
 
+The practice of generating notifications from thresholds rather than after a problem has occurred in a given system. With this approach, it's possible to identify and resolve issues before they impact your end users. According to DORA, teams that have proactive notifications can diagnose and solve problems quickly. Notifications should be generated using specific alerting rules based on thresholds. Thresholds for these rules should be predictive and not based on arbitrary values. If you have have known values that cause user impact, your thresholds should start alarming once you're within 20% of that threshold. Incident post-mortems can also help you determine these metrics and thresholds. Once you have a plan in place, actively review and adjust your notification strategy to avoid unactionable notifications.
+
+#### Ways To Improve Failure Notification
+
+- Configuring alerts in logging and monitoring systems to appropriate levels.
+- Configuring alerts to make sure they notify people and teams who can actually fix the problem.
+- Proactively monitoring system health based on rate of change warnings.
+- Ensure that only relevant alerts are occurring.
+
+[Link](https://dora.dev/capabilities/proactive-failure-notification/)
+
 ### Team Experimentation
+
+For an organization to fully benefit from modern software development techniques, teams must be able to experiment with real users to achieve agreed upon business outcomes. This allows developers to quickly prototyp and test ideas as they learn more about the problem, and design solutions. This practice helps teams ship features that add value to the organization frequently. Team members should be able to work on new ideas without having to get external permission, they should be able to update specifications during development, and the ability to make changes to stories without having to get external approval. Providing treams with information and context lets themmake informed decisions about the right work to do. It's up the individual performing the work to fill in details and update user stories when they deem it appropriate. Developer's shoudln't be handed strict, unchangeable requirements, but rather leaned on to experiment to uncover the best solution.
+
+#### Ways To Improve Team Experimentation
+
+- Hold regular hackathons to let teams experiment with new tools and technologies.
+- Encourages teams to iterate on and conitnually improve solutions.
+- Allow developers and operators to talk to and observe customers.
 
 ### Visibility Of Work In The Value Stream
 
+This represents the extent to which teams have a good understand of how their work flow from business requirements all the way to customers. Teams that are proficient at value visibiity are able to easily see the visual flow of their work through the flow, and information about the flow is readily made readily available. A useful technique to develop this is value stream mapping. Gather stakeholders from every part of the product development lifecycle and create a diagram of process blogs. Record in each process block the team that manages that process, the steps they use to accomplish that process, the time it takes to complete the process, and the percentage of items that hit a stage without requiring rework. Looks for prcoesses that block or produce low quality work, or processes that have a long lead time for completion. Work with stakeholder to identify what a future value stream might look like as well. Teams should be evaluating the current state and future state every six months to a year.
+
+When putting together a value stream, remember that not one single person or team has great insight into the whole value stream. It's paramount to include people across the entire stream for feedback. This will also help you map the entire stream without missing any steps. Failure to map a certain step can lead to local optimazation but missed opportunities to improve the whole process. Focus on areas that are actual bottlenecks for immprovement first, even if all the steps can be improved. The people inovled with the value mapping should also have the power to institute changes to help eliminate bottlenecks.
+
+#### Ways To Improve Work Visibility
+
+- Provide tools for visualizing and recording workflow.
+- Create a value stream map.
+- Share artifacts or otherwise make them widely available.
+
+[Link](https://dora.dev/capabilities/work-visibility-in-value-stream/)
+
 ### Visual Management
+
+Visual management board can create a share understanding of where the team is, and can help identify and remove obstacles. This can be cards, storyboards, Kanban boards, dashboards, or even pipeline monitors. The goal is to be able to visual the status of systems and work. Visual management works well with work in progress limits and can contribute to high levels of deliveyr performance. It's important to involve the team with metric selection and definiton if you're creating boards that display metrics. Displays should be simple and provide information that is actionable. As time goes on, the displays should evolve to address issues the team is facing in the present, and teams should be empowered to fix underlying issues, not just sympotoms.
+
+#### Ways To Improve Visual Management
+
+- Reflect information that the team cares about and will acton.
+- Make data easy to understand.
+- Give the team information that is relevant to their work.
+- Displays are updated as part of daily work.
 
 ### Work In Process Limits
 
+DORA research shoes that WIP limits help drive improvements in software delivery, especially when combined with visual displays and monitoring driven feedback loops. Assigning a person to work on multiple items at a time causes the work on both tickets to take longer, and causes team burnout. The best way to start is to use a storyboard (JIRA, or other) to visualize the columns of the workstream. Each column should specify a WIP limit which defines how many active work items can be in a given column at any time. The WIP capacity will vary by team, but a good esitmate is that the WIP limit should be 50-60% of your team size. If you have eight developers, your WIP limit for active development tickets should be closer to four or five. The limits should be adhered to, meaning no card moves from one column to the next if it breaks the WIP limit. This can result in team members sitting idle for a time, but the response to this is for those team members to begin identifying places in your process to be improved to reduce time spent idling. The point of imposing WIP limits is to expose problems in the system so they can be addressed.
+
+#### Ways To Improve Work In Process Limits
+
+- Make all your work visible to avoid miscalculating capacity
+- Set WIP limits that match your teams capacity for work. People shouldn't work on multiple tasks at a time and account for activities such as production support.
+- Set recurring meetings for stakeholders to prioritize work in columns where developers pull from.
+- Improve work processes and increase flow so that starting and completing work has low variability and teams aren't sitting idle.
+
 ### Working In Small Batches
+
+Working in small batches is an essential principle in any discipline where feedback loops are important, and is a necessary condition for trunk-based development and continuous integration. Adoping this practice allows you to rapidly test hypotheses about whether a particular improvement is likely to have the effect you want, or course correct to revist assumptions. In traditional phased approaches to software development, handoffs from development to test, or test to IT consist of lengthy and large releases. Getting feedback on changes and features released could take months or weeks. Working in small batches lets your reduce this feedback loop and prevent some of the long term headaches that stem from only validating items in bulk. When planning new features, use the agile concept of the INVEST principle to help understand how to break down work. You can use approaches such as dark launching, which is when a feature has work that's okay to put into production while the feature may not be finished or available to end users. Another approach would be to use feature toggles to hide the feature in production while still merging and promoting code daily. Another example of this is branching by abstraction. For example teams might choose to do a migration between services by allowing both the old and new services to exist in parallel and then migrating older services to new services incrementally. Avoid working in small batches that get regrouped before they're merged into the trunk. Regrouping working in this way delays the feedback on whether the changes have defects, and whther your changes were the right thing to build.
+
+#### Ways To Improve Working In Small Batches
+
+- Work is decompoxed in a way that enables teams to make more frequent production releases.
+- Developers are expeirienced in breaking down work into small changes that can be completed in the space of hours, not days.
 
 ### Job Satisfaction
 
+Job satisfaction is a predictor of organization performance. Engaged employees drive business value. People do better work when they feel supported by their employers, when they have the tools and resources to perform their jobs, and when they feel their judgement is valued. Dedication to continuous improvement if what sets apart successful companies, and helps with satisfcation. If you're trying to make ogranizational change, don't forget you must make time and resoucres available for the improvements. Transformations are hard and take time, and make things difficult for employees to navigate. Teams that routinely work on making these changes and improving processes are more likely to stay with the company. 
+
+Measuring job satisfaction is hard. The best way is to get people's opinions, but if you're worried that you won't receive accurate answers then that's a signal that something is wrong and should be investigated.
+
+[Link](https://dora.dev/capabilities/job-satisfaction/)
+
 ### Learning Culture
+
+Organizational culture that values learnings contributes to bettering the four key metrics and building a strong tream culture. A climate for learning is predictive of performance gains. Ensure there is budget and resources for your teams to engage with learning or and the space to explore ideas. Treat any failures as opportunitues to learn as well with blameless post-mortems. Teams should feel comfortable taking resonable risks. Teams should also have regular opportunities to share what they've learned.
 
 ### Transformational Leadership
 
-### Well-being
+Effective leadership has a measurable significant impact on software delivery outcomes indirectly by enabling the adoption of technical and product management capabilities and practices by practitioners which leaders care about. 
+
+The five characteristics of a transformational leader are:
+
+- Vision: Understands clearly where their team and the organizaiton are going, and where they want the team to be in five yearrs.
+- Inspirational Communicatiion: Says positive things about the team and makes employees proud to be part of their organization.
+- Itellectual Stimulation: Challenges team members to think about old problems in new ways and to rethink some of their basic assumptions about their work.
+- Supportive Leadership: Considers others' personal feelings before acting.
+- Personal Recognition: Commends team members when they do a better than average job and acknowledges improvement in quality of team members' work.
+
+These five characteristics are highly correlated with software delivery performance. Teams with the lest transformative leaders were far less likely to be high performers of software delivery. It's far easier to achieve success when you have effective, transformational leadership. Transformational leadership can be contrasted with transactional leadership, where employees are rewarded with money or prestige for complying with leadership. Transformational leaders motivate followers to achieve performance beyond expectation by transforming followers' attitudes and beliefes opposed to gamified compliance. Transformational leaders can't drive high performance alone, success aalso depends on the implementation of effective technical, management, and product management practices, along with the other capaibilities. Transformational leaders should help teams impelement DORA capabilities. This doesn't just apply to executives. Anyone can practice these skills.
 
 ## DORA Key Metrics
 
