@@ -485,7 +485,21 @@ Measuring job satisfaction is hard. The best way is to get people's opinions, bu
 
 ### Learning Culture
 
+Organizational culture that values learnings contributes to bettering the four key metrics and building a strong tream culture. A climate for learning is predictive of performance gains. Ensure there is budget and resources for your teams to engage with learning or and the space to explore ideas. Treat any failures as opportunitues to learn as well with blameless post-mortems. Teams should feel comfortable taking resonable risks. Teams should also have regular opportunities to share what they've learned.
+
 ### Transformational Leadership
+
+Effective leadership has a measurable significant impact on software delivery outcomes indirectly by enabling the adoption of technical and product management capabilities and practices by practitioners which leaders care about. 
+
+The five characteristics of a transformational leader are:
+
+- Vision: Understands clearly where their team and the organizaiton are going, and where they want the team to be in five yearrs.
+- Inspirational Communicatiion: Says positive things about the team and makes employees proud to be part of their organization.
+- Itellectual Stimulation: Challenges team members to think about old problems in new ways and to rethink some of their basic assumptions about their work.
+- Supportive Leadership: Considers others' personal feelings before acting.
+- Personal Recognition: Commends team members when they do a better than average job and acknowledges improvement in quality of team members' work.
+
+These five characteristics are highly correlated with software delivery performance. Teams with the lest transformative leaders were far less likely to be high performers of software delivery. It's far easier to achieve success when you have effective, transformational leadership. Transformational leadership can be contrasted with transactional leadership, where employees are rewarded with money or prestige for complying with leadership. Transformational leaders motivate followers to achieve performance beyond expectation by transforming followers' attitudes and beliefes opposed to gamified compliance. Transformational leaders can't drive high performance alone, success aalso depends on the implementation of effective technical, management, and product management practices, along with the other capaibilities. Transformational leaders should help teams impelement DORA capabilities. This doesn't just apply to executives. Anyone can practice these skills.
 
 ## DORA Key Metrics
 
