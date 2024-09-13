@@ -422,6 +422,14 @@ The practice of generating notifications from thresholds rather than after a pro
 
 ### Team Experimentation
 
+For an organization to fully benefit from modern software development techniques, teams must be able to experiment with real users to achieve agreed upon business outcomes. This allows developers to quickly prototyp and test ideas as they learn more about the problem, and design solutions. This practice helps teams ship features that add value to the organization frequently. Team members should be able to work on new ideas without having to get external permission, they should be able to update specifications during development, and the ability to make changes to stories without having to get external approval. Providing treams with information and context lets themmake informed decisions about the right work to do. It's up the individual performing the work to fill in details and update user stories when they deem it appropriate. Developer's shoudln't be handed strict, unchangeable requirements, but rather leaned on to experiment to uncover the best solution.
+
+#### Ways To Improve Team Experimentation
+
+- Hold regular hackathons to let teams experiment with new tools and technologies.
+- Encourages teams to iterate on and conitnually improve solutions.
+- Allow developers and operators to talk to and observe customers.
+
 ### Visibility Of Work In The Value Stream
 
 This represents the extent to which teams have a good understand of how their work flow from business requirements all the way to customers. Teams that are proficient at value visibiity are able to easily see the visual flow of their work through the flow, and information about the flow is readily made readily available. A useful technique to develop this is value stream mapping. Gather stakeholders from every part of the product development lifecycle and create a diagram of process blogs. Record in each process block the team that manages that process, the steps they use to accomplish that process, the time it takes to complete the process, and the percentage of items that hit a stage without requiring rework. Looks for prcoesses that block or produce low quality work, or processes that have a long lead time for completion. Work with stakeholder to identify what a future value stream might look like as well. Teams should be evaluating the current state and future state every six months to a year.
@@ -449,7 +457,23 @@ Visual management board can create a share understanding of where the team is, a
 
 ### Work In Process Limits
 
+DORA research shoes that WIP limits help drive improvements in software delivery, especially when combined with visual displays and monitoring driven feedback loops. Assigning a person to work on multiple items at a time causes the work on both tickets to take longer, and causes team burnout. The best way to start is to use a storyboard (JIRA, or other) to visualize the columns of the workstream. Each column should specify a WIP limit which defines how many active work items can be in a given column at any time. The WIP capacity will vary by team, but a good esitmate is that the WIP limit should be 50-60% of your team size. If you have eight developers, your WIP limit for active development tickets should be closer to four or five. The limits should be adhered to, meaning no card moves from one column to the next if it breaks the WIP limit. This can result in team members sitting idle for a time, but the response to this is for those team members to begin identifying places in your process to be improved to reduce time spent idling. The point of imposing WIP limits is to expose problems in the system so they can be addressed.
+
+#### Ways To Improve Work In Process Limits
+
+- Make all your work visible to avoid miscalculating capacity
+- Set WIP limits that match your teams capacity for work. People shouldn't work on multiple tasks at a time and account for activities such as production support.
+- Set recurring meetings for stakeholders to prioritize work in columns where developers pull from.
+- Improve work processes and increase flow so that starting and completing work has low variability and teams aren't sitting idle.
+
 ### Working In Small Batches
+
+Working in small batches is an essential principle in any discipline where feedback loops are important, and is a necessary condition for trunk-based development and continuous integration. Adoping this practice allows you to rapidly test hypotheses about whether a particular improvement is likely to have the effect you want, or course correct to revist assumptions. In traditional phased approaches to software development, handoffs from development to test, or test to IT consist of lengthy and large releases. Getting feedback on changes and features released could take months or weeks. Working in small batches lets your reduce this feedback loop and prevent some of the long term headaches that stem from only validating items in bulk. When planning new features, use the agile concept of the INVEST principle to help understand how to break down work. You can use approaches such as dark launching, which is when a feature has work that's okay to put into production while the feature may not be finished or available to end users. Another approach would be to use feature toggles to hide the feature in production while still merging and promoting code daily. Another example of this is branching by abstraction. For example teams might choose to do a migration between services by allowing both the old and new services to exist in parallel and then migrating older services to new services incrementally. Avoid working in small batches that get regrouped before they're merged into the trunk. Regrouping working in this way delays the feedback on whether the changes have defects, and whther your changes were the right thing to build.
+
+#### Ways To Improve Working In Small Batches
+
+- Work is decompoxed in a way that enables teams to make more frequent production releases.
+- Developers are expeirienced in breaking down work into small changes that can be completed in the space of hours, not days.
 
 ### Job Satisfaction
 
