@@ -76,6 +76,8 @@ Measuring job satisfaction is hard. The best way is to get people's opinions, bu
 
 Organizational culture that values learnings contributes to bettering the four key metrics and building a strong tream culture. A climate for learning is predictive of performance gains. Ensure there is budget and resources for your teams to engage with learning or and the space to explore ideas. Treat any failures as opportunitues to learn as well with blameless post-mortems. Teams should feel comfortable taking resonable risks. Teams should also have regular opportunities to share what they've learned.
 
+[Link](https://dora.dev/capabilities/learning-culture/)
+
 ### Team Experimentation
 
 For an organization to fully benefit from modern software development techniques, teams must be able to experiment with real users to achieve agreed upon business outcomes. This allows developers to quickly prototyp and test ideas as they learn more about the problem, and design solutions. This practice helps teams ship features that add value to the organization frequently. Team members should be able to work on new ideas without having to get external permission, they should be able to update specifications during development, and the ability to make changes to stories without having to get external approval. Providing treams with information and context lets themmake informed decisions about the right work to do. It's up the individual performing the work to fill in details and update user stories when they deem it appropriate. Developer's shoudln't be handed strict, unchangeable requirements, but rather leaned on to experiment to uncover the best solution.
@@ -85,6 +87,8 @@ For an organization to fully benefit from modern software development techniques
 - Hold regular hackathons to let teams experiment with new tools and technologies.
 - Encourages teams to iterate on and conitnually improve solutions.
 - Allow developers and operators to talk to and observe customers.
+
+[Link](https://dora.dev/capabilities/team-experimentation/)
 
 ### Transformational Leadership
 
@@ -99,6 +103,8 @@ The five characteristics of a transformational leader are:
 - Personal Recognition: Commends team members when they do a better than average job and acknowledges improvement in quality of team members' work.
 
 These five characteristics are highly correlated with software delivery performance. Teams with the lest transformative leaders were far less likely to be high performers of software delivery. It's far easier to achieve success when you have effective, transformational leadership. Transformational leadership can be contrasted with transactional leadership, where employees are rewarded with money or prestige for complying with leadership. Transformational leaders motivate followers to achieve performance beyond expectation by transforming followers' attitudes and beliefes opposed to gamified compliance. Transformational leaders can't drive high performance alone, success aalso depends on the implementation of effective technical, management, and product management practices, along with the other capaibilities. Transformational leaders should help teams impelement DORA capabilities. This doesn't just apply to executives. Anyone can practice these skills.
+
+[Link](https://dora.dev/capabilities/transformational-leadership/)
 
 ### Well-being
 
@@ -123,7 +129,7 @@ People who suffer from constantly reacting might experience burnout. Burnout can
 
 Most organizations try to fix the person rather than addressing issues with the organization which is much less successful.
 
-[Link](https://dora.dev/devops-capabilities/cultural/well-being/)
+[Link](https://dora.dev/capabilities/well-being/)
 
 ## Capabilities That Enable Fast Flow
 
@@ -224,6 +230,8 @@ Developers should be empowered to provision the infrastructure they need with st
 
 ### Loosely Coupled Teams
 
+**Note: Needs Updating**
+
 Architecture is a predictor for achieving continuous delivery. Architectural practices that drive successful outcomes:
 
 - Making large-scale changes to the design of systems without the permission of somebody outside of their team and without dependency on another team.
@@ -308,6 +316,8 @@ Visual management board can create a share understanding of where the team is, a
 - Give the team information that is relevant to their work.
 - Displays are updated as part of daily work.
 
+[Link](https://dora.dev/capabilities/visual-management/)
+
 ### Work In Process Limits
 
 DORA research shoes that WIP limits help drive improvements in software delivery, especially when combined with visual displays and monitoring driven feedback loops. Assigning a person to work on multiple items at a time causes the work on both tickets to take longer, and causes team burnout. The best way to start is to use a storyboard (JIRA, or other) to visualize the columns of the workstream. Each column should specify a WIP limit which defines how many active work items can be in a given column at any time. The WIP capacity will vary by team, but a good esitmate is that the WIP limit should be 50-60% of your team size. If you have eight developers, your WIP limit for active development tickets should be closer to four or five. The limits should be adhered to, meaning no card moves from one column to the next if it breaks the WIP limit. This can result in team members sitting idle for a time, but the response to this is for those team members to begin identifying places in your process to be improved to reduce time spent idling. The point of imposing WIP limits is to expose problems in the system so they can be addressed.
@@ -319,6 +329,8 @@ DORA research shoes that WIP limits help drive improvements in software delivery
 - Set recurring meetings for stakeholders to prioritize work in columns where developers pull from.
 - Improve work processes and increase flow so that starting and completing work has low variability and teams aren't sitting idle.
 
+[Link](https://dora.dev/capabilities/wip-limits/)
+
 ### Working In Small Batches
 
 Working in small batches is an essential principle in any discipline where feedback loops are important, and is a necessary condition for trunk-based development and continuous integration. Adoping this practice allows you to rapidly test hypotheses about whether a particular improvement is likely to have the effect you want, or course correct to revist assumptions. In traditional phased approaches to software development, handoffs from development to test, or test to IT consist of lengthy and large releases. Getting feedback on changes and features released could take months or weeks. Working in small batches lets your reduce this feedback loop and prevent some of the long term headaches that stem from only validating items in bulk. When planning new features, use the agile concept of the INVEST principle to help understand how to break down work. You can use approaches such as dark launching, which is when a feature has work that's okay to put into production while the feature may not be finished or available to end users. Another approach would be to use feature toggles to hide the feature in production while still merging and promoting code daily. Another example of this is branching by abstraction. For example teams might choose to do a migration between services by allowing both the old and new services to exist in parallel and then migrating older services to new services incrementally. Avoid working in small batches that get regrouped before they're merged into the trunk. Regrouping working in this way delays the feedback on whether the changes have defects, and whther your changes were the right thing to build.
@@ -327,6 +339,8 @@ Working in small batches is an essential principle in any discipline where feedb
 
 - Work is decompoxed in a way that enables teams to make more frequent production releases.
 - Developers are expeirienced in breaking down work into small changes that can be completed in the space of hours, not days.
+
+[Link](https://dora.dev/capabilities/working-in-small-batches/)
 
 ## Capabilities That Enable Fast Feedback
 
