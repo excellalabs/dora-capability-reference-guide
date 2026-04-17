@@ -6,28 +6,33 @@ The DevOps Research and Assessment (DORA) is a long-running, academically rigoro
 
 This guide is a snapshot of the capabilities documented at [dora.dev](https://dora.dev/) and is intended as a working reference for consultants advising clients on DORA adoption. Each entry provides a summary of key takeaways, measurement guidance, connections to the DORA key metrics, cost savings implications, and related capabilities. For the most current detail, follow the source link at the end of each section.
 
----
-
 ## DORA Key Metrics
 
 All capabilities feed into DORA's four software delivery performance metrics — often called "the four keys." These metrics are leading indicators of organizational performance and lagging indicators of delivery practices. They apply at the application or service level, not across entire organizations. The best use of these metrics is to track the same application over time, not to compare across different teams or contexts.
 
-- **Change Lead Time** — Time from code commit to production deployment. Measures throughput efficiency. *2025 benchmarks: 9.4% of teams achieve under 1 hour; 15% achieve 1 hour–1 day; 31.9% achieve 1 day–1 week; 26.6% achieve 1 week–1 month; 17.2% achieve over 1 month.*
-- **Deployment Frequency** — How often the team deploys to production. Measures ability to deliver value continuously. *2025 benchmarks: 16.2% deploy on demand; 26.2% deploy multiple times per day; 18.7% deploy once per day; 17.6% deploy multiple times per week.*
-- **Failed Deployment Recovery Time** — Time to recover from a failed deployment. Evolved from the earlier "Mean Time to Restore." Measures resilience. *2025 benchmarks: 26.8% recover in under 1 hour; 38.3% recover in 1–24 hours.*
-- **Change Fail Rate** — The percentage of deployments that require immediate intervention. Measures delivery stability. *2025 benchmarks: 9.9% report a 0% failure rate; 19.9% report a 1–5% failure rate.*
+### Change Lead Time
+
+Time from code commit to production deployment. Measures throughput efficiency. *2025 benchmarks: 9.4% of teams achieve under 1 hour; 15% achieve 1 hour–1 day; 31.9% achieve 1 day–1 week; 26.6% achieve 1 week–1 month; 17.2% achieve over 1 month.*
+
+### Deployment Frequency
+
+How often the team deploys to production. Measures ability to deliver value continuously. *2025 benchmarks: 16.2% deploy on demand; 26.2% deploy multiple times per day; 18.7% deploy once per day; 17.6% deploy multiple times per week.*
+
+### Failed Deployment Recovery Time
+
+Time to recover from a failed deployment. Evolved from the earlier "Mean Time to Restore." Measures resilience. *2025 benchmarks: 26.8% recover in under 1 hour; 38.3% recover in 1–24 hours.*
+
+### Change Fail Rate
+
+The percentage of deployments that require immediate intervention. Measures delivery stability. *2025 benchmarks: 9.9% report a 0% failure rate; 19.9% report a 1–5% failure rate.*
 
 DORA research confirms that speed and stability are *not* trade-offs: top performers excel across all four metrics simultaneously. Teams concerned about AI adoption should note that the 2025 DORA report found AI currently improves throughput metrics but also tends to increase instability — making the stability metrics especially important to monitor during AI adoption.
 
 To measure where you stand, take the [DORA Quick Check](https://dora.dev/quickcheck/).
 
----
-
 ## AI Capabilities
 
 The AI capabilities emerged from DORA's 2025 research and represent the organizational and technical practices that determine whether AI adoption drives real performance improvement. DORA's central finding is that **AI is an amplifier** — it magnifies existing strengths but also existing dysfunctions. Teams that lack the following capabilities are likely to find that AI accelerates problems rather than resolves them. These capabilities also directly moderate whether AI investments translate into organizational performance or remain localized productivity gains.
-
----
 
 ### AI-Accessible Internal Data
 
@@ -218,13 +223,9 @@ Version control's ROI is most visible in incident response. The DORA ROI framewo
 
 **Source:** [Version Control](https://dora.dev/capabilities/version-control/)
 
----
-
 ## Core Capabilities
 
 The core capabilities are the technical and organizational practices with the strongest, most consistently replicated evidence of impact on software delivery performance and organizational outcomes. These are the foundational investments for any team looking to improve.
-
----
 
 ### Code Maintainability
 
@@ -263,8 +264,6 @@ Code maintainability is one of the most direct levers on rework cost. DORA's rew
 
 **Source:** [Code Maintainability](https://dora.dev/capabilities/code-maintainability/)
 
----
-
 ### Continuous Delivery
 
 Continuous delivery (CD) is the practice of keeping software always in a deployable state — every change is automatically built, tested, and packaged for production release at any time. CD does not require deploying every commit automatically (that is continuous deployment), but it requires that deployment always be a business decision, not a technical one.
@@ -301,8 +300,6 @@ CD's cost savings span all three value categories in the DORA ROI framework. Rew
 - Testing
 
 **Source:** [Continuous Delivery](https://dora.dev/capabilities/continuous-delivery/)
-
----
 
 ### Continuous Integration
 
@@ -341,8 +338,6 @@ DORA's rework formula captures the savings from CI most clearly: time spent fixi
 
 **Source:** [Continuous Integration](https://dora.dev/capabilities/continuous-integration/)
 
----
-
 ### Customer Feedback
 
 Customer feedback is the systematic practice of gathering, processing, and acting on information about how users experience the software. This includes both formal mechanisms (usage analytics, NPS surveys, support tickets) and informal ones (user interviews, community forums). DORA research shows that teams with strong customer feedback loops have 40% higher organizational performance.
@@ -380,8 +375,6 @@ DORA's reinvestment value category is where customer feedback's ROI is highest. 
 
 **Source:** [Customer Feedback](https://dora.dev/capabilities/customer-feedback/)
 
----
-
 ### Deployment Automation
 
 Deployment automation is the practice of scripting and tooling the full process of releasing software to any environment — development, staging, or production — so that deployments are repeatable, consistent, and require minimal human intervention. It eliminates the class of failures caused by manual deployment steps and enables teams to deploy with confidence and high frequency.
@@ -417,8 +410,6 @@ DORA's downtime cost framework applies most directly here: every minute of produ
 - Continuous Integration
 
 **Source:** [Deployment Automation](https://dora.dev/capabilities/deployment-automation/)
-
----
 
 ### Documentation Quality
 
@@ -459,8 +450,6 @@ Documentation quality generates ROI across all three DORA value categories. Rewo
 
 **Source:** [Documentation Quality](https://dora.dev/capabilities/documentation-quality/)
 
----
-
 ### Flexible Infrastructure
 
 Flexible infrastructure is the ability to provision, scale, and reconfigure compute, storage, and networking resources on demand — typically via cloud platforms or infrastructure-as-code tooling. It enables teams to match capacity to demand dynamically rather than over-provisioning for peak load or under-provisioning and accepting degraded performance.
@@ -496,8 +485,6 @@ Flexible infrastructure generates savings through two mechanisms in the DORA ROI
 - Monitoring and Observability
 
 **Source:** [Flexible Infrastructure](https://dora.dev/capabilities/flexible-infrastructure/)
-
----
 
 ### Generative Organizational Culture
 
@@ -535,8 +522,6 @@ Culture's ROI is most visible in retention and rework. High-performing, satisfie
 
 **Source:** [Generative Organizational Culture](https://dora.dev/capabilities/generative-organizational-culture/)
 
----
-
 ### Job Satisfaction
 
 Job satisfaction in the DORA model is a composite organizational outcome — reflecting burnout levels, individual productivity, and how well employees feel their skills are matched to their work. DORA research treats job satisfaction not just as an employee wellness metric but as a leading indicator of team performance, retention, and organizational health.
@@ -572,8 +557,6 @@ The most direct cost savings from job satisfaction are in retention. Replacing a
 - Well-Being
 
 **Source:** [Job Satisfaction](https://dora.dev/capabilities/job-satisfaction/)
-
----
 
 ### Loosely Coupled Teams
 
@@ -611,8 +594,6 @@ Coupling creates coordination overhead that shows up as rework cost — time spe
 
 **Source:** [Loosely Coupled Teams](https://dora.dev/capabilities/loosely-coupled-teams/)
 
----
-
 ### Monitoring and Observability
 
 Monitoring and observability (M&O) encompasses the instrumentation, tooling, and practices that allow teams to understand what their systems are doing in production. Monitoring tracks known failure modes with predefined alerts; observability enables exploration of unknown failure modes by providing structured access to telemetry data (logs, metrics, traces).
@@ -648,8 +629,6 @@ The DORA ROI framework's downtime cost category is where M&O's impact is most di
 - Continuous Integration
 
 **Source:** [Monitoring and Observability](https://dora.dev/capabilities/monitoring-and-observability/)
-
----
 
 ### Pervasive Security
 
@@ -687,8 +666,6 @@ Security incident costs are often the largest single-event cost a software organ
 
 **Source:** [Pervasive Security](https://dora.dev/capabilities/pervasive-security/)
 
----
-
 ### Teams Empowered to Choose Tools
 
 This capability describes the degree to which development teams have autonomy to select the tools, frameworks, and technologies that best fit their work — rather than having them mandated top-down by IT governance or architecture councils. DORA research shows tool autonomy is positively correlated with both performance and job satisfaction.
@@ -723,8 +700,6 @@ Tool autonomy's cost savings come primarily from reinvestment value: teams using
 - Learning Culture
 
 **Source:** [Teams Empowered to Choose Tools](https://dora.dev/capabilities/teams-empowered-to-choose-tools/)
-
----
 
 ### Testing
 
@@ -763,8 +738,6 @@ Testing's cost savings are clearest in rework avoidance. Defects caught in testi
 
 **Source:** [Testing](https://dora.dev/capabilities/test-automation/)
 
----
-
 ### Trunk-Based Development
 
 Trunk-based development (TBD) is the practice of having all developers integrate their changes into a single shared branch (trunk/main) at least once per day, using short-lived feature branches that last no more than a few days. It is the branching strategy that makes continuous integration possible at scale.
@@ -800,8 +773,6 @@ TBD's primary cost savings come from eliminating merge conflicts and integration
 - Documentation Quality
 
 **Source:** [Trunk-Based Development](https://dora.dev/capabilities/trunk-based-development/)
-
----
 
 ### Well-Being
 
@@ -839,13 +810,9 @@ Well-being's financial case runs through retention and productivity. Attrition c
 
 **Source:** [Well-Being](https://dora.dev/capabilities/well-being/)
 
----
-
 ## Secondary Capabilities
 
 Secondary capabilities are practices with strong empirical support in DORA research that amplify the impact of core capabilities or address specific organizational contexts. They are not "optional" — for many teams, one or more of these will be the highest-leverage improvement opportunity.
-
----
 
 ### Infrastructure as Code
 
@@ -881,8 +848,6 @@ IaC eliminates a category of rework caused by environment drift and manual confi
 - Continuous Integration
 
 **Source:** [Infrastructure as Code](https://dora.dev/capabilities/infrastructure-as-code/)
-
----
 
 ### Learning Culture
 
@@ -920,8 +885,6 @@ Learning culture's ROI is most visible in the long run through capability accumu
 
 **Source:** [Learning Culture](https://dora.dev/capabilities/learning-culture/)
 
----
-
 ### Service Reliability
 
 Service reliability is the disciplined practice of defining, measuring, and managing the availability, latency, and correctness of production services. It encompasses SLOs (service level objectives), SLIs (service level indicators), error budgets, and the operational practices that keep services within their reliability targets.
@@ -957,8 +920,6 @@ Reliability directly addresses the downtime cost component of DORA's ROI framewo
 - Testing
 
 **Source:** [Service Reliability](https://dora.dev/capabilities/service-reliability/)
-
----
 
 ### Team Experimentation
 
@@ -997,8 +958,6 @@ Team experimentation's ROI comes from the accumulated value of improvements comp
 
 **Source:** [Team Experimentation](https://dora.dev/capabilities/team-experimentation/)
 
----
-
 ### Transformational Leadership
 
 Transformational leadership in DORA's model describes leaders who inspire vision, foster an environment of psychological safety and learning, support their teams' autonomy, and remove organizational impediments. DORA research consistently identifies leadership quality as a strong predictor of both team capability development and organizational outcomes.
@@ -1036,8 +995,6 @@ Leadership quality's ROI is most clearly seen in transformation outcomes. DORA's
 
 **Source:** [Transformational Leadership](https://dora.dev/capabilities/transformational-leadership/)
 
----
-
 ### User-Centric Focus
 
 User-centric focus is the organizational practice of continuously orienting software design and delivery decisions around the needs, behaviors, and feedback of the people who actually use the software. DORA research shows this is one of the strongest predictors of organizational performance.
@@ -1073,8 +1030,6 @@ The ROI of user-centric focus runs through reinvestment value: the savings from 
 - Generative Organizational Culture
 
 **Source:** [User-Centric Focus](https://dora.dev/capabilities/user-centric-focus/)
-
----
 
 ### Work Visibility in Value Stream
 
@@ -1113,8 +1068,6 @@ VSM's ROI comes from targeting improvement investments accurately. Without visib
 
 **Source:** [Work Visibility in Value Stream](https://dora.dev/capabilities/work-visibility-in-value-stream/)
 
----
-
 ### Working in Small Batches
 
 Working in small batches is the practice of breaking work into the smallest units that can be independently developed, tested, and delivered to users, with each unit completing the full delivery pipeline before the next begins. It is the operational principle that makes continuous delivery possible and risk manageable.
@@ -1151,8 +1104,6 @@ Small batches reduce rework cost through two mechanisms: first, they limit the c
 
 **Source:** [Working in Small Batches](https://dora.dev/capabilities/working-in-small-batches/)
 
----
-
 ## Further Reading
 
 The following resources were used to compile and validate this guide and provide important context for applying DORA in practice:
@@ -1166,7 +1117,5 @@ The following resources were used to compile and validate this guide and provide
 - [How to Empower Software Delivery Teams as a Business Leader](https://dora.dev/guides/how-to-empower-software-delivery-teams/) — Leadership-level guidance on using DORA metrics across the organizational hierarchy
 - [How to Enable Teams to Innovate with Generative AI](https://dora.dev/guides/how-to-innovate-with-generative-ai/) — DORA's strategic framework for AI adoption
 - [DORA Community of Practice](https://dora.community/) — Peer learning community for DORA practitioners
-
----
 
 *Last updated: April 2026. This guide reflects DORA research through the 2025 State of DevOps Report cycle.*
