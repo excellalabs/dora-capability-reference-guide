@@ -71,8 +71,6 @@ DORA research identifies three sources of ROI from improved software delivery: (
 
 **Source:** [AI-Accessible Internal Data](https://dora.dev/capabilities/ai-accessible-internal-data/)
 
----
-
 ### Clear AI Stance
 
 A clear AI stance is an organization's explicit, shared position on how, when, and why AI tools should (and should not) be used in software delivery. It covers permitted tools, data governance rules, acceptable use cases, cost guidelines, and escalation paths. Without it, teams either avoid AI out of uncertainty or adopt it inconsistently, creating compliance risks and uneven performance.
@@ -108,8 +106,6 @@ Unclear AI policies expose organizations to compliance risk, shadow IT costs, an
 - Healthy Data Ecosystems
 
 **Source:** [Clear AI Stance](https://dora.dev/capabilities/clear-ai-stance/)
-
----
 
 ### Healthy Data Ecosystems
 
@@ -147,8 +143,6 @@ DORA's ROI framework highlights downtime cost as a major value driver. The formu
 
 **Source:** [Healthy Data Ecosystems](https://dora.dev/capabilities/healthy-data-ecosystems/)
 
----
-
 ### Quality Internal Platforms
 
 A quality internal platform is a curated, developer-facing layer of tools, services, and infrastructure that reduces cognitive load by abstracting away complex decisions. High-quality platforms let developers deploy, test, monitor, and debug without deep expertise in the underlying infrastructure. This is the organizational substrate that determines whether AI investment reaches the team level or gets absorbed by system friction.
@@ -184,8 +178,6 @@ DORA's ROI framework identifies reinvestment value as a key source of savings: t
 - Monitoring and Observability
 
 **Source:** [Quality Internal Platforms](https://dora.dev/capabilities/quality-internal-platforms/)
-
----
 
 ### Strong Version Control
 
